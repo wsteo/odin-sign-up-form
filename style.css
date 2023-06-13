@@ -59,10 +59,17 @@ ul {
   position: absolute;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .odin-logo {
-  position: absolute;
+  padding: 0px;
+}
+
+.odin-logo-font {
+  color: white;
 }
 
 .form-flex-box-container {
