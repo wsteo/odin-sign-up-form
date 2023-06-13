@@ -25,10 +25,9 @@
 
         <h2>You know you want to</h2>
         <h2>Let's do this!</h2>
-
         <form action="" method="post">
-          <ul>
-            <li>
+          <div class="form-flex-box-container">
+            <div class="form-left">
               <ul>
                 <li>
                   <label for="first_name">First Name</label>
@@ -36,40 +35,12 @@
                 <li>
                   <input type="text" id="first_name" />
                 </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <label for="last_name">Last Name</label>
-                </li>
-                <li>
-                  <input type="text" id="last_name" />
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
                 <li>
                   <label for="email">Email</label>
                 </li>
                 <li>
                   <input type="text" id="email" />
                 </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-                <li>
-                  <label for="phone_number">Phone Number</label>
-                </li>
-                <li>
-                  <input type="text" id="phone_number" />
-                </li>
-              </ul>
-            </li>
-            <li>
-              <ul>
                 <li>
                   <label for="password">Password</label>
                 </li>
@@ -77,9 +48,21 @@
                   <input type="text" id="password" />
                 </li>
               </ul>
-            </li>
-            <li>
+            </div>
+            <div class="form-right">
               <ul>
+                <li>
+                  <label for="last_name">Last Name</label>
+                </li>
+                <li>
+                  <input type="text" id="last_name" />
+                </li>
+                <li>
+                  <label for="phone_number">Phone Number</label>
+                </li>
+                <li>
+                  <input type="text" id="phone_number" />
+                </li>
                 <li>
                   <label for="confirm-password">Confirm Password</label>
                 </li>
@@ -87,8 +70,8 @@
                   <input type="text" id="confirm-password" />
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
           <button type="submit">Create Account</button>
         </form>
 
