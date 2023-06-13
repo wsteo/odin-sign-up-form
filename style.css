@@ -18,6 +18,28 @@ ul {
 
 .right-partition {
   margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.top {
+  flex: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.middle {
+  flex: none;
+  width: fit-content;
+  height: fit-content;
+}
+
+.bottom {
+  flex: none;
+  width: fit-content;
+  height: fit-content;
 }
 
 .background-image {

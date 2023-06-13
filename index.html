@@ -16,66 +16,72 @@
           alt="background-image"
         />
       </div>
+
       <div class="right-partition">
-        <h2>
-          This is not a real online service! You know you need something like
-          this in your life to help you realize your deepest dreams. Sign up now
-          to get started.
-        </h2>
+        <div class="top">
+          <h2>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams.
+          </h2>
+          <h2>Sign up now to get started.</h2>
+          <h2>You know you want to.</h2>
+        </div>
 
-        <h2>You know you want to</h2>
-        <h2>Let's do this!</h2>
-        <form action="" method="post">
-          <div class="form-flex-box-container">
-            <div class="form-left">
-              <ul>
-                <li>
-                  <label for="first_name">First Name</label>
-                </li>
-                <li>
-                  <input type="text" id="first_name" />
-                </li>
-                <li>
-                  <label for="email">Email</label>
-                </li>
-                <li>
-                  <input type="text" id="email" />
-                </li>
-                <li>
-                  <label for="password">Password</label>
-                </li>
-                <li>
-                  <input type="text" id="password" />
-                </li>
-              </ul>
+        <div class="middle">
+          <h2>Let's do this!</h2>
+          <form id="sign-up-form" action="" method="post">
+            <div class="form-flex-box-container">
+              <div class="form-left">
+                <ul>
+                  <li>
+                    <label for="first_name">First Name</label>
+                  </li>
+                  <li>
+                    <input type="text" id="first_name" />
+                  </li>
+                  <li>
+                    <label for="email">Email</label>
+                  </li>
+                  <li>
+                    <input type="text" id="email" />
+                  </li>
+                  <li>
+                    <label for="password">Password</label>
+                  </li>
+                  <li>
+                    <input type="text" id="password" />
+                  </li>
+                </ul>
+              </div>
+              <div class="form-right">
+                <ul>
+                  <li>
+                    <label for="last_name">Last Name</label>
+                  </li>
+                  <li>
+                    <input type="text" id="last_name" />
+                  </li>
+                  <li>
+                    <label for="phone_number">Phone Number</label>
+                  </li>
+                  <li>
+                    <input type="text" id="phone_number" />
+                  </li>
+                  <li>
+                    <label for="confirm-password">Confirm Password</label>
+                  </li>
+                  <li>
+                    <input type="text" id="confirm-password" />
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="form-right">
-              <ul>
-                <li>
-                  <label for="last_name">Last Name</label>
-                </li>
-                <li>
-                  <input type="text" id="last_name" />
-                </li>
-                <li>
-                  <label for="phone_number">Phone Number</label>
-                </li>
-                <li>
-                  <input type="text" id="phone_number" />
-                </li>
-                <li>
-                  <label for="confirm-password">Confirm Password</label>
-                </li>
-                <li>
-                  <input type="text" id="confirm-password" />
-                </li>
-              </ul>
-            </div>
-          </div>
-          <button type="submit">Create Account</button>
-        </form>
-
-        <h5>Already have an account? <a href="">Log in</a></h5>
+          </form>
+        </div>
+        <div class="bottom">
+          <button type="submit" form="sign-up-form">Create Account</button>
+          <h5>Already have an account? <a href="">Log in</a></h5>
+        </div>
       </div>
     </div>
   </body>
