@@ -48,8 +48,17 @@ ul {
 
 .background-image {
   height: 1000px;
-  max-width: 100%;
+  max-width: 550px;
   object-fit: cover;
+}
+
+.logo-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 500px;
+  width: 550px;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .odin-logo {
