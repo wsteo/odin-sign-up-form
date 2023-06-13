@@ -14,6 +14,9 @@ ul {
 
 .left-partition {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .right-partition {
@@ -47,6 +50,10 @@ ul {
   height: 1000px;
   max-width: 100%;
   object-fit: cover;
+}
+
+.odin-logo {
+  position: absolute;
 }
 
 .form-flex-box-container {
